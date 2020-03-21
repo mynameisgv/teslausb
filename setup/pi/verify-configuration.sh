@@ -123,10 +123,10 @@ function check_setup_teslausb () {
   fi
 }
 
-check_supported_hardware
+#check_supported_hardware
 
 check_setup_teslausb
 
 check_variable "camsize"
 
-check_available_space
+#check_available_space
